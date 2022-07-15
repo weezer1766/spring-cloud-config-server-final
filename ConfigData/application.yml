@@ -2,3 +2,27 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8010/eureka/
+---
+spring:
+  profiles: pronoun
+words: Yo,Tu,El,Ella 
+
+---
+spring:
+  profiles: verb
+words: corrió, sabía, tenía, vió, compró
+
+---
+spring:
+  profiles: article
+words: un,una,la
+
+---
+spring:
+  profiles: adjective
+words: razonable, permeable, sospechoso, ordinario, improbable
+
+---
+spring:
+  profiles: noun
+words: barco, libro, voto, asiento, mochila, partición
