@@ -5,7 +5,7 @@ eureka:
 ---
 spring:
   profiles: pronoun
-words: Yo madre,Tu madre,El madre,Ella madre 
+words: Yo,Tu,El,Ella 
 
 ---
 spring:
